@@ -11,15 +11,15 @@ directory containing the script must contain the following hierarchy:
 
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/
 *    /test
-	*   X_test.txt
-    *   Y_test.txt
-    *  subject_test.txt
+	   X_test.txt
+       Y_test.txt
+      subject_test.txt
 *    /train
-    *   X_train.txt
-	*   Y_train.txt
-    *   subject_train.txt
-    *   activity_labels.txt
-    *   features.txt
+       X_train.txt
+	   Y_train.txt
+       subject_train.txt
+       activity_labels.txt
+    features.txt
 
 													
 To run the script in R,
