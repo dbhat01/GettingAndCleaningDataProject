@@ -9,17 +9,17 @@ To run the script, the running directory must contain the
 original data in exactly the original structure, i.e. the
 directory containing the script must contain the following hierarchy:
 
-. getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/
-.    /test
-.        X_test.txt
-.        Y_test.txt
-.        subject_test.txt
-.    /train
-.        X_train.txt
-.        Y_train.txt
-.        subject_train.txt
-.        activity_labels.txt
-.     features.txt
+* getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/
+*    /test
+	*   X_test.txt
+    *   Y_test.txt
+    *  subject_test.txt
+*    /train
+    *   X_train.txt
+	*   Y_train.txt
+    *   subject_train.txt
+    *   activity_labels.txt
+    *   features.txt
 
 													
 To run the script in R,
@@ -29,8 +29,8 @@ run_analysis()
 
 The script first merges the data sets from the test and train directories
 in the following fashion:
-. | subject_test,  Y_test X_test |
-. | subject_train, Y_train, X_train |
+* | subject_test,  Y_test X_test |
+* | subject_train, Y_train, X_train |
 
 Then, the mean and standard deviation measurements are extracted from the merged
 data, and the activity IDs are replaced by activity labels. 
