@@ -10,16 +10,16 @@ original data in exactly the original structure, i.e. the
 directory containing the script must contain the following hierarchy:
 
 * getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/
-*    /test
-	   X_test.txt
-       Y_test.txt
-      subject_test.txt
+*   /test
+	*   X_test.txt
+    *   Y_test.txt
+    *  subject_test.txt
 *    /train
-       X_train.txt
-	   Y_train.txt
-       subject_train.txt
-       activity_labels.txt
-    features.txt
+    *   X_train.txt
+	*   Y_train.txt
+    *   subject_train.txt
+    *   activity_labels.txt
+*   features.txt
 
 													
 To run the script in R,
